@@ -1,0 +1,203 @@
+body{
+	background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAGFBMVEXjGyMAAAAAhT/YHyMABgAABAEAiUEmg0UiiJMSAAAA+UlEQVR4nO3QsQGDAAzAsFCg/P8xezyxSydoBgAAAAAAAAAAAAAAAAAAAOCjk20utjnYnJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk5qbbf5s82NzUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOah62FwHH2P/InYmRAAAAAElFTkSuQmCC");
+	background-size: 100%;
+}
+h1{
+	font-size:60px;
+}
+.intro{
+	font-size: 30px;
+	text-align: center;
+}
+.grid {
+	display: inline-grid;
+	Height: 875px;
+	Width: 100%;
+	grid-template: 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% / 20% 20% 20% 20% 20%;
+}
+
+.box{
+	border:2px solid black;
+}
+img{
+	height: 250px;
+	width: 375px;
+}
+
+.c, .g, .e, .i, .k{
+	text-align: center;
+	padding: 20px; 
+	font-family: Times New Roman;
+	font-size: 20px;
+	grid-row: 2/3;
+}	
+.e{
+	background-color: black;
+}
+.i{
+	background-color: black;
+}
+.g{
+	background-color: green;
+}
+ .image1{
+	grid-row: 3/4;
+	grid-column: 1/2;
+	
+}
+ .image2{
+	grid-row: 3/4;
+	grid-column: 2/3;
+}
+.image3{
+	grid-row: 3/4;
+	grid-column: 3/4;
+}
+.image4{
+	grid-row: 3/4;
+	grid-column: 4/5;
+}
+.image5{
+	grid-row:3/4;
+	grid-column: 5/6
+}
+	
+.s{
+	background-image:url("https://priceschool.usc.edu/wp-content/uploads/2016/09/soc-just-cert-43401504_thumbnail.jpg");
+	background-size: 100%;
+}
+
+.grid1{
+	display: inline-grid;
+	Height: 875px;
+	Width: 100%;
+	grid-template: 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% / 20% 20% 20% 20% 20% 20%;
+}
+
+a:visited{
+	color: white;
+}
+.box1{
+	grid-column:3/5;
+	width: 450px;
+	border: solid 4px black;
+    color: black;
+	font-weight:bold;
+	font-size: 70px;
+	text-align:center;
+}
+
+.box2{
+	grid-column: 3/5;
+	grid-row: 3/4;
+	font-weight: bold;
+	font-size: 40px;
+}
+.box3{
+	grid-column:2/5;
+	grid-row:4/5;
+	background-color: red;
+	font-size: 20px;
+}
+.box4{
+	grid-column: 3/5;
+	grid-row: 6/7;
+	font-weight: bold;
+	font-size: 40px;
+}
+.box5{
+	grid-column: 2/5;
+	grid-row: 7/8;
+	background-color: green;
+	font-size: 20px;
+}
+.grid2{
+	display: inline-grid;
+	Height: 1000px;
+	Width: 100%;
+	grid-template: 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75%/ 20% 20% 20% 20% 20% 20%;
+}
+.L{
+	background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASYAAACsCAMAAADhRvHiAAAAQlBMVEX////7+/v4+Pj29vbz8/Pv7+////3q6ur///v48L39+/nm5eDx7+yvr6/g4+bv7O30+fn29vL7/uzS0tP4+OD59+W2pah6AAADBElEQVR4nO3d63LaMBCG4QgTl6bpub3/W+1Mpx0gjm3J7EqftO/zixyA9VpaSzI2T09xzR+3/57qhCHpdH04t4sispm8Z5hfTit/Wfu9iNMHoxfKq1KfXo3errLpc4M37bDwdxhyMLp7SDeyK6tq6cb+cHNkt5zNowCG0UOlKzLcBgEoo1kEHo1Kc/6uk2udSKSRJgAdMipdmgfSJSq1tGa7Z6f90myyFKTpPEBKU+L0aYbpS+ETejmYWCtsTYbr8FmdsW2PTQMUjGrIFdAYnbDY19YBRNdPm206SHRJ0+TxorGNMMss5b3JUWdnFaTjJaC3ht4o3m/LOfb35X/pJLPjSJ49orihk5ob2UGl0GU0e+Njp0nYcr9U3lOS3T9Dr3GjHPsaNk40JexJK4+xhSEmFug+CCRgCbxcWkcAAAEEPL4I8BnEpiH3pnmuxpxBqG6ValyAqeR9Wr0hOjFiouU7GnG4igWnu/eVtR46chb7NDl2cu/6sf/6LhE88GHjEXV+fan8vUvRO/0OUhxh2RP0E6AgcX/gQ949yDs3OZPFJLoF8Eb+B3ZDj9yeJQ8WA6+xQwXLkliherXHVpOVDFkvKHp9F/QaDjA2w/MR/1/qNGC5HXCTLD1YuTst/JzLyxSg9wTYxE2SS0rCorcXAAcw6BDT6eAV8EbXQIGmzaXZm4efOZlk/pH5lGCZcg5pxCVaBzsfSdH+xMrWLr5GXqHt15yxCHZlRaQJgCK12sRQ6Q2hFUihUAAAW+YL396dYf7ROgI/Vpde/R2X0Zr2TF7j6cI1RLVhvSrylMVwVkbGq1gt1dHzf9+UXxtFcaP9eY33vh7m/le7B/46yzaHv+vYptEXbmSzU81Hdka7shCtIA14UzLVi3nbYin7kPnRG2a0PqDW6QzMxXfRAY/ppJp3fjtLUaMmVbIYpM0f8c99Xvg2U9yh2zRE8sOZ3OYeNRuT+wTq54v3O1Tx6zdTzQyOWepxvLMySFtJkvkWjnlUGnOrgHLnAa7k9O3PDueZKECG/gCTCgM8tm5oOgAAAABJRU5ErkJggg==");
+	background-size: 100%;
+}
+
+.grid3{
+	display: inline-grid;
+	Height: 1000px;
+	Width: 100%;
+	grid-template: 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75% 8.75%/ 20% 20% 20% 20% 20% 20%;
+}
+.j{
+	background-image:url("https://invisiblepeople.tv/wp-content/uploads/2018/09/history-homeless-nyc.jpeg");
+	background-size: 95%;
+}
+	
+.boxh{
+	grid-column:3/5;
+	width: 450px;
+	border: solid 4px black;
+    color: white;
+	font-weight:bold;
+	font-size: 50px;
+	text-align:center;
+}
+.boxgraph{
+	grid-column: 3/5;
+	grid-row: 3/6;
+}
+.imagegraph{
+	width: 450px;
+	height: 450px;
+}
+.jayloncool{
+	grid-column: 2/5;
+	grid-row: 10/11;
+	font-size: 25px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+.jj{
+	grid-column: 3/5;
+	grid-row:14/15;
+}
+.imagegraph2{
+	width: 450px;
+	height: 450px;
+}
+.jj1{
+	grid-column: 2/5;
+	grid-row: 20/22;
+	font-size: 25px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+.jones{
+	align-items:stretch;
+}
+.gg{
+	height: 700px;
+	width: 2010px;
+}
+.thompson{
+	grid-column:3/5;
+	width: 450px;
+	height: 150px;
+	border: solid 4px white;
+    color: white;
+	font-weight:bold;
+	font-size: 70px;
+	text-align:center;
+}
+.Michelle{
+	grid-column: 2/5;
+	grid-row: 10/11;
+	font-size: 30px;
+}
+	
+
+
+	
+
